@@ -1,0 +1,4 @@
+- simple command/query pattern by defining input class, results class and handler
+- using entity framework dbcontext as unit of work, not fighting it with repositories 
+- using IoC (autofac) for decopling commands from controllers by exposing simple command dispatcher
+- unit and integration testing is simple as it gets, define inputs > execute command > verify outputs
