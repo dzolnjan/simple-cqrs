@@ -1,0 +1,14 @@
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\Cqrs.Console.exe.config
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\Cqrs.Console.exe
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\Cqrs.Console.pdb
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\Autofac.dll
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\Cqrs.Core.dll
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\EntityFramework.dll
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\Cqrs.Core.pdb
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\Autofac.xml
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\EntityFramework.xml
+E:\@Russ\Cqrs\Cqrs.Console\obj\Debug\Console.csprojResolveAssemblyReference.cache
+E:\@Russ\Cqrs\Cqrs.Console\obj\Debug\Cqrs.Console.exe
+E:\@Russ\Cqrs\Cqrs.Console\obj\Debug\Cqrs.Console.pdb
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\EntityFramework.SqlServer.dll
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\EntityFramework.SqlServer.xml

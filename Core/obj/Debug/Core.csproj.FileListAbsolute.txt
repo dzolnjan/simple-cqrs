@@ -1,0 +1,12 @@
+E:\@Russ\Cqrs\Core\bin\Debug\Autofac.dll
+E:\@Russ\Cqrs\Core\bin\Debug\EntityFramework.dll
+E:\@Russ\Cqrs\Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\@Russ\Cqrs\Core\bin\Debug\Autofac.xml
+E:\@Russ\Cqrs\Core\bin\Debug\EntityFramework.xml
+E:\@Russ\Cqrs\Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\@Russ\Cqrs\Core\bin\Debug\Cqrs.Core.dll.config
+E:\@Russ\Cqrs\Core\bin\Debug\Cqrs.Core.dll
+E:\@Russ\Cqrs\Core\bin\Debug\Cqrs.Core.pdb
+E:\@Russ\Cqrs\Core\obj\Debug\Cqrs.Core.dll
+E:\@Russ\Cqrs\Core\obj\Debug\Cqrs.Core.pdb
+E:\@Russ\Cqrs\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\Cqrs.Core.IntegrationTests.dll.config
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\Cqrs.Core.IntegrationTests.dll
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\Cqrs.Core.IntegrationTests.pdb
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\Cqrs.Core.dll
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\EntityFramework.dll
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\EntityFramework.SqlServer.dll
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\Should.dll
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\Autofac.dll
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\Cqrs.Core.pdb
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\EntityFramework.xml
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\EntityFramework.SqlServer.xml
+E:\@Russ\Cqrs\Core.IntegrationTests\bin\Debug\Autofac.xml
+E:\@Russ\Cqrs\Core.IntegrationTests\obj\Debug\Core.IntegrationTests.csprojResolveAssemblyReference.cache
+E:\@Russ\Cqrs\Core.IntegrationTests\obj\Debug\Cqrs.Core.IntegrationTests.dll
+E:\@Russ\Cqrs\Core.IntegrationTests\obj\Debug\Cqrs.Core.IntegrationTests.pdb
