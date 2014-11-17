@@ -6,10 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Cqrs.Core.Domain;
+using Cqrs.Core.Event;
 using Cqrs.Core.Infrastructure;
 using Cqrs.Core.Persistance;
 using Cqrs.Core.Query;
 using Cqrs.Core.Utils;
+using NServiceBus;
 
 namespace Cqrs.Core.Command
 {
@@ -25,7 +27,14 @@ namespace Cqrs.Core.Command
     }
 
     public class AddOrEditBlogHandler : IHandleCommand<AddOrEditBlog, Task<AddOrEditBlogResults>>
-    { 
+    {
+        private readonly IBus _bus;
+
+        public AddOrEditBlogHandler(IBus bus)
+        {
+            _bus = bus;
+        }
+
         public async Task<AddOrEditBlogResults> Handle(AddOrEditBlog command, BloggingContext context = null)
         {
             // validations
@@ -62,6 +71,11 @@ namespace Cqrs.Core.Command
             blog.Name = command.Name; 
 
             await context.SaveChangesAsync();
+
+            if (_bus != null)
+            {
+                _bus.Publish(new NewBlogAddedEvent() { Id = blog.BlogId });
+            }
 
             return new AddOrEditBlogResults()
                    {

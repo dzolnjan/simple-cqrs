@@ -4,6 +4,7 @@ using Cqrs.Core.Command;
 using Cqrs.Core.Domain;
 using Cqrs.Core.Persistance;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NServiceBus;
 using Should;
 
 namespace Cqrs.Core.IntegrationTests.Command
@@ -11,7 +12,7 @@ namespace Cqrs.Core.IntegrationTests.Command
     [TestClass]
     public class AddOrEditBlogTests : IntegrationTestBase
     {
-        private readonly AddOrEditBlogHandler _addOrEditBlogHandler = new AddOrEditBlogHandler();
+        private readonly AddOrEditBlogHandler _addOrEditBlogHandler = new AddOrEditBlogHandler(null);
 
         [TestMethod]
         public void Can_Add_New_Blog()

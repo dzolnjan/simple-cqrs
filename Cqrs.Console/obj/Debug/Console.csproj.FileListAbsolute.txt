@@ -12,3 +12,6 @@ E:\@Russ\Cqrs\Cqrs.Console\obj\Debug\Cqrs.Console.exe
 E:\@Russ\Cqrs\Cqrs.Console\obj\Debug\Cqrs.Console.pdb
 E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\EntityFramework.SqlServer.dll
 E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\EntityFramework.SqlServer.xml
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\NServiceBus.Core.dll
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\NServiceBus.Core.pdb
+E:\@Russ\Cqrs\Cqrs.Console\bin\Debug\NServiceBus.Core.xml

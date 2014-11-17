@@ -16,3 +16,6 @@ E:\@Russ\Cqrs\Core.UnitTests\bin\Debug\Autofac.xml
 E:\@Russ\Cqrs\Core.UnitTests\obj\Debug\Cqrs.Core.UnitTests.dll
 E:\@Russ\Cqrs\Core.UnitTests\obj\Debug\Cqrs.Core.UnitTests.pdb
 E:\@Russ\Cqrs\Core.UnitTests\bin\Debug\MSTestExtensions.dll
+E:\@Russ\Cqrs\Core.UnitTests\bin\Debug\NServiceBus.Core.dll
+E:\@Russ\Cqrs\Core.UnitTests\bin\Debug\NServiceBus.Core.pdb
+E:\@Russ\Cqrs\Core.UnitTests\bin\Debug\NServiceBus.Core.xml

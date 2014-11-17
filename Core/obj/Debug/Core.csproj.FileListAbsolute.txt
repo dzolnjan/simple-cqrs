@@ -10,3 +10,6 @@ E:\@Russ\Cqrs\Core\bin\Debug\Cqrs.Core.pdb
 E:\@Russ\Cqrs\Core\obj\Debug\Cqrs.Core.dll
 E:\@Russ\Cqrs\Core\obj\Debug\Cqrs.Core.pdb
 E:\@Russ\Cqrs\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+E:\@Russ\Cqrs\Core\bin\Debug\NServiceBus.Core.dll
+E:\@Russ\Cqrs\Core\bin\Debug\NServiceBus.Core.pdb
+E:\@Russ\Cqrs\Core\bin\Debug\NServiceBus.Core.xml

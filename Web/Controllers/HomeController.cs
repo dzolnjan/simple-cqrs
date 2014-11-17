@@ -25,6 +25,12 @@ namespace Cqrs.Web.Controllers
         {
             var commandResult = await _commander.Execute(new AddOrEditBlog() { Name = "blog123" });
 
+            //await _commander.Execute(new AddWelcomePost()
+            //{
+            //    Id = commandResult.Blog.BlogId,
+            //    PostTitle = "This is the welcome post created from event handler from Home"
+            //});
+
             var query = new GetBlogsByName() { Name = "blog"};
 
             var queryResult = await _querier.Execute(query);

@@ -130,3 +130,16 @@ E:\@Russ\Cqrs\Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\@Russ\Cqrs\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
 E:\@Russ\Cqrs\Web\obj\Debug\Cqrs.Web.dll
 E:\@Russ\Cqrs\Web\obj\Debug\Cqrs.Web.pdb
+E:\@Russ\Cqrs\Web\bin\NServiceBus.Core.dll
+E:\@Russ\Cqrs\Web\bin\NServiceBus.ObjectBuilder.Autofac.dll
+E:\@Russ\Cqrs\Web\bin\NServiceBus.RavenDB.dll
+E:\@Russ\Cqrs\Web\bin\Raven.Abstractions.dll
+E:\@Russ\Cqrs\Web\bin\Raven.Client.Lightweight.dll
+E:\@Russ\Cqrs\Web\bin\NServiceBus.Core.pdb
+E:\@Russ\Cqrs\Web\bin\NServiceBus.Core.xml
+E:\@Russ\Cqrs\Web\bin\NServiceBus.ObjectBuilder.Autofac.pdb
+E:\@Russ\Cqrs\Web\bin\NServiceBus.ObjectBuilder.Autofac.xml
+E:\@Russ\Cqrs\Web\bin\NServiceBus.RavenDB.pdb
+E:\@Russ\Cqrs\Web\bin\NServiceBus.RavenDB.xml
+E:\@Russ\Cqrs\Web\bin\Raven.Abstractions.xml
+E:\@Russ\Cqrs\Web\bin\Raven.Client.Lightweight.xml

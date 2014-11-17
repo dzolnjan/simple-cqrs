@@ -5,20 +5,23 @@ using System.Web;
 using System.Web.Mvc;
 using System.Windows.Input;
 using Autofac;
+using Autofac.Core;
 using Autofac.Integration.Mvc;
+using Cqrs.Core.Event;
+using Cqrs.Core.EventHandler;
 using Cqrs.Core.Infrastructure;
+using NServiceBus;
 
 namespace Cqrs.Web
 {
     public class AutofacConfig
     {
-        public static void RegisterDependencies()
-        {
-      
+        public static IContainer RegisterDependencies()
+        {  
             var builder = new ContainerBuilder();
 
-            // placed here before RegisterControllers as last one wins
             builder.RegisterAssemblyTypes(typeof (Commander).Assembly)
+                .Where(t => !t.Name.EndsWith("EventHandler"))   // let nservicebus register its handlers from Core
                 .AsImplementedInterfaces()
                 .SingleInstance();  
 
@@ -31,7 +34,10 @@ namespace Cqrs.Web
             builder2.RegisterInstance(container);
             builder2.Update(container);
 
-            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));  
+            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+
+
+            return container;
         }
 
     }

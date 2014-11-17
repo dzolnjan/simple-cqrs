@@ -1,11 +1,13 @@
 ﻿using System;
 using Cqrs.Core.Command;
 using Cqrs.Core.Domain;
+using Cqrs.Core.Event;
 using Cqrs.Core.Persistance;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System.Data.Entity;
 using MSTestExtensions;
+using NServiceBus;
 using Should;
 
 
@@ -24,7 +26,11 @@ namespace Cqrs.Core.UnitTests.Command
             var mockContext = new Mock<BloggingContext>();
             mockContext.Setup(m => m.Blogs).Returns(mockSet.Object);
 
-            var handler = new AddOrEditBlogHandler();
+            //var mockBus = new Mock<IBus>();
+            //mockBus.Setup(bus => bus.Publish<NewBlogAddedEvent>(It.IsAny<IMessage>()))
+            //      .Verifiable();
+
+            var handler = new AddOrEditBlogHandler(null);
             var result = handler.Handle(command, mockContext.Object);
 
             result.Result.Blog.ShouldNotBeNull();
@@ -39,7 +45,7 @@ namespace Cqrs.Core.UnitTests.Command
             var mockContext = new Mock<BloggingContext>();
             mockContext.Setup(m => m.Blogs).Returns(mockSet.Object);
 
-            var handler = new AddOrEditBlogHandler();
+            var handler = new AddOrEditBlogHandler(null);
 
             Assert.Throws<ArgumentNullException>(() => handler.Handle(command, mockContext.Object)); 
         }
