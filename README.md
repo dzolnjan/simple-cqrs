@@ -5,7 +5,7 @@
   http://rob.conery.io/2014/03/04/repositories-and-unitofwork-are-not-a-good-idea/
   http://lostechies.com/jimmybogard/2012/10/08/favor-query-objects-over-repositories/
 
-- using IoC (autofac) for decopling commands from controllers by exposing simple command dispatcher
+- using IoC (autofac) for decopling commands handlers from controllers by exposing simple command dispatcher
   https://github.com/dzolnjan/simple-cqrs/blob/master/Core/Infrastructure/ICommand.cs
   https://github.com/dzolnjan/simple-cqrs/blob/master/Cqrs.Console/Program.cs
 
